@@ -24,5 +24,15 @@ namespace BurgerKingWpf
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            BurgerPanel.Visibility = Visibility.Collapsed;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            BurgerPanel.Visibility = Visibility.Visible;
+        }
     }
 }
